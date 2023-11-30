@@ -1,7 +1,7 @@
 {
-    "name": "VitaminVB-Modpack",
+    "name": "VitaminVBModpack",
     "version_number": "1.0.0",
-    "website_url": "https://github.com/KlutzyBubbles/letha-company-vb-modpack",
+    "website_url": "https://github.com/KlutzyBubbles/lethal-company-vb-modpack",
     "description": "Big boi modpack for big vitamin vb men",
     "dependencies": [
         "2018-LC_API-2.1.0",
