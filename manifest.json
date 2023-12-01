@@ -2,7 +2,7 @@
     "name": "VitaminVBModpack",
     "version_number": "1.0.0",
     "website_url": "https://github.com/KlutzyBubbles/lethal-company-vb-modpack",
-    "description": "Big boi modpack for big vitamin vb men",
+    "description": "Big boi modpack for big vitamin vb men. This modpack IS VANILLA, no game altering 'QOL' mods",
     "dependencies": [
         "2018-LC_API-2.1.0",
         "BepInEx-BepInExPack-5.4.2100",
