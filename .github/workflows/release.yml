@@ -22,7 +22,7 @@ jobs:
 
       - name: Get commits since version
         id: commits
-        run: echo "value=$(git log \"$(git describe --tags --abbrev=0)..HEAD\" --no-merges --oneline)" >> $GITHUB_STATE
+        run: echo "value=$(git log "$(git describe --tags --abbrev=0)..HEAD" --no-merges --oneline)" >> $GITHUB_STATE
       
       - name: Release
         uses: softprops/action-gh-release@v1
