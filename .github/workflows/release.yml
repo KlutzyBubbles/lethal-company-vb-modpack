@@ -8,17 +8,20 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Build zip
-        id: build
-        uses: thedoctor0/zip-release@0.7.6
-        with:
-          type: 'zip'
-          filename: 'release.zip'
-          exclusions: '*.git* /.github/**/*'
+      # - name: Build zip
+      #   id: build
+      #   uses: thedoctor0/zip-release@0.7.6
+      #   with:
+      #     type: 'zip'
+      #     filename: 'release.zip'
+      #     exclusions: '*.git* /.github/**/*'
+
+      - name: Zip Folder
+        run: zip -r ${{ github.event.repository.name }}.zip . -x "*.git*" ".github/*"
 
       - name: Get commits since version
         id: commits
@@ -33,5 +36,4 @@ jobs:
           draft: true
           body: |
             ${{ steps.commits.outputs.value }}
-          files: |
-            release.zip
+          files: ${{ github.event.repository.name }}.zip
