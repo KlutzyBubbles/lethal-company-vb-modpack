@@ -5,7 +5,7 @@ For the boys (and anyone else who believes in vb)
 
 ## Changelog
 
-All changes can be seen in commit history on GitHub
+Changes past 1.0.2 can be found in the releases on the github page
 
 ### v1.0.0
 
