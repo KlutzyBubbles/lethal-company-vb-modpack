@@ -2,6 +2,26 @@
  
 For the boys (and anyone else who believes in vb)
 
+This modpack aims to keep a vanilla+ feel of the game with the idea of fun in mind.
+
+## Versioning
+
+To allow for a quick glance view on changes without looking at the change log the version (Major.Minor.Patch) will follow these rules
+
+### Patch
+
+Adding mods that are backwards compatible with other clients
+Minor mod version changes that can be used with older clients
+
+### Minor
+
+Changes to mods that will likely cause unwanted behaviour if clients dont match (e.g. MoreCompany major updates which cause lobby issues)
+
+### Major
+
+Removal of mods (doesnt matter which ones). This is to indicate that the profile should be re made as updating a modpack does NOT remove mods
+Changes to the game that will most likely crash due to old mods (links to removing mods above).
+
 
 ## Changelog
 
