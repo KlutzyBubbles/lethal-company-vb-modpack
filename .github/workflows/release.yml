@@ -15,14 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # - name: Build zip
-      #   id: build
-      #   uses: thedoctor0/zip-release@0.7.6
-      #   with:
-      #     type: 'zip'
-      #     filename: 'release.zip'
-      #     exclusions: '*.git* /.github/**/*'
-
       - name: Zip Folder
         run: zip -r ${{ github.event.repository.name }}.zip . -x "*.git*" ".github/*"
 
@@ -40,3 +32,30 @@ jobs:
           body: |
             ${{ steps.commits.outputs.value }}
           files: ${{ github.event.repository.name }}.zip
+
+      - name: Get manifest properties
+        id: manifest
+        uses: zoexx/github-action-json-file-properties@release
+        with:
+          file_path: "./manifest.json"
+  
+      - name: echo version
+        run: echo "::debug::${{ steps.manifest.outputs.version_number }}"
+
+      - name: Format version number
+        id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> $GITHUB_STATE
+
+      - name: Publish
+        uses: GreenTF/upload-thunderstore-package@v4.1
+        with:
+          namespace: AngoMango
+          description: ${{ steps.manifest.outputs.description }}
+          token: ${{ secrets.THUNDERSTORE_TOKEN }}
+          name: ${{ steps.manifest.outputs.name }}
+          version: ${{ github.ref_name }}
+          community: lethal-company
+          file: ${{ github.event.repository.name }}.zip
+          repo: thunderstore.io
+          # categories: |
+          #   modpacks
