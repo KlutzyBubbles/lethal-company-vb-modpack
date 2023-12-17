@@ -1,8 +1,8 @@
 {
     "name": "VitaminVBModpack",
-    "version_number": "2.1.10",
+    "version_number": "3.0.0",
     "website_url": "https://github.com/KlutzyBubbles/lethal-company-vb-modpack",
-    "description": "[v45] Big boi modpack for big vitamin vb men. We will overtake femboytv.",
+    "description": "[v45] Big boi modpack for big vitamin vb men.",
     "dependencies": [
         "2018-LC_API-2.2.0",
         "BepInEx-BepInExPack-5.4.2100",
@@ -30,19 +30,19 @@
         "RugbugRedfern-Skinwalkers-2.0.1",
         "x753-Mimics-2.2.0",
         "KlutzyBubbles-InfiniteEmote-1.1.0",
-        "KlutzyBubbles-BetterEmotes-1.2.2",
+        "Sligili-More_Emotes-1.2.2",
         "Monkeytype-HideChat-1.0.0",
         "Owen3H-IntroTweaks-1.2.2",
-        "Ozone-Disregard_Early_Voting-1.0.2",
         "Sv_Matt-HideModList-1.0.1",
         "NiceHairs-Symbiosis-1.0.2",
         "Giltong-LethalCompanyDRP-1.3.6",
         "Hexnet111-SuitSaver-1.1.2",
         "HomelessGinger-MaskedEnemyOverhaul-2.1.0",
         "Rune580-LethalCompany_InputUtils-0.4.2",
-        "no00ob-LCSoundTool-1.3.2",
-        "Clementinise-CustomSounds-2.1.2",
-        "Reina-QuietSpray-1.0.0",
-        "EliteMasterEric-SlimeTamingFix-1.0.2"
+        "EliteMasterEric-SlimeTamingFix-1.0.2",
+        "TwinDimensionalProductions-CoilHeadStare-1.0.3",
+        "SteamBlizzard-Tyler1Bracken-1.1.0",
+        "AllToasters-SpectateEnemies-1.5.0",
+        "Rattenbonkers-Teleporter_Cooldown_Reset-1.0.1"
     ]
 }
