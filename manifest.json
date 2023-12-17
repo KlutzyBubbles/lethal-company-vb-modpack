@@ -1,6 +1,6 @@
 {
     "name": "VitaminVBModpack",
-    "version_number": "2.1.8",
+    "version_number": "2.1.9",
     "website_url": "https://github.com/KlutzyBubbles/lethal-company-vb-modpack",
     "description": "[v45] Big boi modpack for big vitamin vb men. We will overtake femboytv.",
     "dependencies": [
@@ -38,7 +38,7 @@
         "NiceHairs-Symbiosis-1.0.2",
         "Giltong-LethalCompanyDRP-1.3.6",
         "Hexnet111-SuitSaver-1.1.2",
-        "HomelessGinger-MaskedEnemyOverhaul-2.0.1",
+        "HomelessGinger-MaskedEnemyOverhaul-2.1.0",
         "Rune580-LethalCompany_InputUtils-0.4.2",
         "no00ob-LCSoundTool-1.3.2",
         "Clementinise-CustomSounds-2.1.2",
