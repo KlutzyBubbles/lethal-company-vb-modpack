@@ -1,10 +1,10 @@
 {
     "name": "VitaminVBModpack",
-    "version_number": "3.1.0",
+    "version_number": "3.1.1",
     "website_url": "https://github.com/KlutzyBubbles/lethal-company-vb-modpack",
     "description": "[v45] Big boi modpack for big vitamin vb men.",
     "dependencies": [
-        "2018-LC_API-2.2.0",
+        "2018-LC_API-3.0.0",
         "BepInEx-BepInExPack-5.4.2100",
         "FlipMods-NoMusicDistortion-1.0.4",
         "Renegades-FlashlightToggle-1.4.1",
@@ -44,6 +44,8 @@
         "SteamBlizzard-Tyler1Bracken-1.1.0",
         "AllToasters-SpectateEnemies-1.5.0",
         "Rattenbonkers-Teleporter_Cooldown_Reset-1.0.1",
-        "Ryokune-CompatibilityChecker-1.1.6"
+        "Ryokune-CompatibilityChecker-1.1.6",
+        "no00ob-LCSoundTool-1.4.0",
+        "AriDev-JesterFree-2.0.0"
     ]
 }
